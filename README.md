@@ -4,7 +4,6 @@ A Python-based AI voice assistant that uses speech recognition to execute real-t
 
 A Python-based intelligent voice assistant that understands voice commands and performs real-time tasks like answering questions, providing weather updates, playing music, reading PDFs, and more.
 
----
 
 ## 🚀 Features
 
@@ -19,7 +18,6 @@ A Python-based intelligent voice assistant that understands voice commands and p
 - 🔁 Continuous listening system
 - 🔐 Secure API key handling using `.env`
 
----
 
 ## 🛠️ Tech Stack
 
@@ -33,54 +31,32 @@ A Python-based intelligent voice assistant that understands voice commands and p
 - OpenWeather API
 - Threading
 
----
+
 
 ## 📂 Project Structure
 
 VOICESYSTEM/
 │
-├── VOICE_SYSTEM.py
+├── SmartVoiceAssistant.py
 ├── .env               # API keys (not pushed to GitHub)
 ├── .gitignore
-├── requirements.txt
 ├── README.md
-
----
 
 ## ⚙️ Setup Instructions
 
-### 1️⃣ Clone the Repository
-
-git clone https://github.com/your-username/your-repo-name.git  
-cd your-repo-name  
-
----
-
-### 2️⃣ Install Dependencies
-
-pip install -r requirements.txt  
-
-If `pyaudio` fails:
-
-pip install pipwin  
-pipwin install pyaudio  
-
----
-
-### 3️⃣ Create `.env` File
+###    Create `.env` File
 
 Create a file named `.env` in the project folder:
 
 GROQ_API_KEY=your_groq_api_key  
 WEATHER_API_KEY=your_openweather_api_key  
 
----
 
-### 4️⃣ Run the Project
 
-python VOICE_SYSTEM.py  
+###  Run the Project
 
----
+python SmartVoiceAssistant.py  
+
 
 ## 🎤 Usage
 
@@ -98,16 +74,12 @@ python VOICE_SYSTEM.py
 - 5 plus 3  
 - What time is it  
 
----
-
-## 🔐 Security
+**Security**
 
 - API keys are stored using environment variables (`.env`)
 - `.env` is excluded using `.gitignore`
 
----
-
-## 💡 How It Works
+**How It Works**
 
 1. Listens for wake word (“Siri”)  
 2. Captures voice input  
@@ -116,30 +88,26 @@ python VOICE_SYSTEM.py
 
 ---
 
-## 🎯 Key Highlights
+**Key Highlights**
 
 - Multi-threading for non-blocking execution  
 - Real-time API integration (GROQ + Weather)  
 - Voice-first interaction system  
 - Modular and scalable design  
 
----
 
-## 📌 Future Improvements
+
+ **Future Improvements**
 
 - GUI interface  
 - More natural AI voice  
 - Mobile integration  
 - Smart home control  
 
----
 
-## 👩‍💻 Author
 
-Your Name  
+**👩‍💻 Author**
 
----
+Muvva Thirapatha Swami
 
-## ⭐ If you like this project
 
-Give it a ⭐ on GitHub!
